@@ -3,10 +3,10 @@ import br.com.alura.screenmatch.calculos.FiltroRecomendacao;
 import br.com.alura.screenmatch.modelos.Episodio;
 import br.com.alura.screenmatch.modelos.Filme;
 import br.com.alura.screenmatch.modelos.Serie;
+import br.com.alura.screenmatch.modelos.Titulo;
 
 import java.sql.SQLOutput;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Principal {
     public static void main(String[] args) {
@@ -68,6 +68,31 @@ public class Principal {
         System.out.println("Tamanho da lista " + listaDeFilmes.size());
         System.out.println("Primeiro filme " + listaDeFilmes.get(0).getNome());
         System.out.println(listaDeFilmes);
-        //System.out.println("Filme do Paulo: " + listaDeFilmes.get(0).toString());
+        List<Titulo> lista = new ArrayList<>();
+        lista.add(filmeDoPaulo);
+        lista.add(meuFilme);
+        lista.add(outroFilme);
+        lista.add(lost);
+        for (Titulo item : lista) {
+           if (item instanceof Filme filme && filmeDoPaulo.getClassificacao()>2) {
+               System.out.println("Classificação: " + filme.getClassificacao());
+           }
+        }
+        List<String> buscaPorArtista = new ArrayList<>();
+        buscaPorArtista.add("Adam Sandler");
+        buscaPorArtista.add("Quentin Tarantino");
+        buscaPorArtista.add("Francis Ford Coppola");
+        System.out.println("Antes da ordenação: " + buscaPorArtista);
+        Collections.sort(buscaPorArtista); //ao se tratar de uma lista de strings, a ordenação é feita por ordem alfabética
+        System.out.println("Depois da ordenação: " + buscaPorArtista);
+
+        System.out.println("Lista de titulos ordenada: ");
+        Collections.sort(lista); //após implementar o Comparable na classe Titulo e adaptando o método compareTo
+        // para definir o que será comparado, é possível utilizar o sort()
+        System.out.println(lista);
+        System.out.println("Ordenando por ano: ");
+        lista.sort(Comparator.comparing(Titulo::getAnoDeLancamento)); // método atual para ordenar, o Comparator é uma interface
+        //o método comparing pode ser usado para comparar objetos e o operador :: é usado para passar um método para comparação
+        System.out.println(lista);
     }
 }
