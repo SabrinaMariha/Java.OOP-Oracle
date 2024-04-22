@@ -10,20 +10,10 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../gson-2.10.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Dependencias/gson-2.10.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../Dependencias" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/../Dependencias" recursive="false" />
       </library>
     </orderEntry>
   </component>

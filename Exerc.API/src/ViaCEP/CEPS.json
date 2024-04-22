@@ -1,0 +1,18 @@
+[
+  {
+    "logradouro": "Rua Profeta Isaías",
+    "bairro": "Vila Melchizedec",
+    "localidade": "Mogi das Cruzes",
+    "uf": "SP",
+    "complemento": "",
+    "cep": "08738-440"
+  },
+  {
+    "logradouro": "Avenida Brasília",
+    "bairro": "Vila Urupês",
+    "localidade": "Suzano",
+    "uf": "SP",
+    "complemento": "de 615/616 ao fim",
+    "cep": "08610-101"
+  }
+]

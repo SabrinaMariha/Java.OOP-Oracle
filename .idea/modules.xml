@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Carros/Carros.iml" filepath="$PROJECT_DIR$/Carros/Carros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesafioCartaoCredito/DesafioCartaoCredito.iml" filepath="$PROJECT_DIR$/DesafioCartaoCredito/DesafioCartaoCredito.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesafioNumeroSecreto/DesafioNumeroSecreto.iml" filepath="$PROJECT_DIR$/DesafioNumeroSecreto/DesafioNumeroSecreto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exerc.API/Exerc.API.iml" filepath="$PROJECT_DIR$/Exerc.API/Exerc.API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.OOP.iml" filepath="$PROJECT_DIR$/.idea/Java.OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OrdenacaoListas/OrdenacaoListas.iml" filepath="$PROJECT_DIR$/OrdenacaoListas/OrdenacaoListas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScreenMatch/ScreenMatch.iml" filepath="$PROJECT_DIR$/ScreenMatch/ScreenMatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScreenMatchComAPI/ScreenMatchComAPI.iml" filepath="$PROJECT_DIR$/ScreenMatchComAPI/ScreenMatchComAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SoundMix/SoundMix.iml" filepath="$PROJECT_DIR$/SoundMix/SoundMix.iml" />
+    </modules>
+  </component>
+</project>
